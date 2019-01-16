@@ -5,7 +5,9 @@
  * @author Bojan Djuricic (@Toorshia)
  **/
 
-JustGage = function(config) {
+import Raphael from 'raphael/raphael.min.js';
+
+export function JustGage = function(config) {
 
   var obj = this;
 
