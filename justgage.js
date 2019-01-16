@@ -7,7 +7,7 @@
 
 import Raphael from 'raphael/raphael.min.js';
 
-export function JustGage = function(config) {
+export default function JustGage(config) {
 
   var obj = this;
 
